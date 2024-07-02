@@ -139,5 +139,8 @@ select CustomerID,Recency, Frequecy,Monetary,RFM_segment,
 From RFM
  ```
 
+#Power BI Dashboard 
+
+![](RFMANALYIS/Salesperformance.png)
 
 

@@ -2,8 +2,10 @@
 
 ## Table Of Content 
    Introduction
+   
    Objective 
+   
    SoftWare Listing 
-   ### Data Analysis 
-       SQL Code Breakdown
-     
+   
+   # Data Analysis 
+   

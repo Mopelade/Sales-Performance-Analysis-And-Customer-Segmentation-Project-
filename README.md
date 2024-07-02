@@ -106,5 +106,35 @@ INSERT INTO RFM (CustomerID,Recency,Frequecy,Monetary)
      FROM RFM_analysis;
 ```
 
+- **Step 4**: Add a new column named customer segement   
+```sql 
+ALTER TABLE RFM
+    add Customer_segement nvarchar(50);
+```
+
+**Concatenet The RFM Score**
+```sql
+ UPDATE RFM
+    SET RFM_segment = CONCAT(RECENCY,Frequecy,MONETARY)
+```
+
+- **Step 5**: Segment customers based on the RFM SCORES
+```sql
+select CustomerID,Recency, Frequecy,Monetary,RFM_segment,
+        case when [Recency] >= 4 and [Frequecy] >= 4 and [Monetary] >= 4 then 'Champion'
+             when [Recency] >= 2 and [Frequecy] <= 2 and [Monetary] >= 4 then  'Big Spenders'
+             when [Recency] >= 3 and [Frequecy] >= 3 and [Monetary] >= 3 then 'Loyal Customer'
+             when [Recency] >= 4 and [Frequecy] <= 2 and [Monetary] <= 3 then 'New Customers'
+             when [Recency] >= 3 and [Frequecy] >= 3 and [Monetary] <= 2 then  'Low Spender'
+             when [Recency] >= 2 and [Frequecy] >= 2 and [Monetary] >= 2 then 'Promising'
+             when [Recency] <= 1 and [Frequecy] >= 3 and [Monetary] >= 3 then  'Can not lose'
+             when [Recency] >= 2 and [Frequecy] >= 1 and [Monetary] >= 1 then  'About To sleep'
+             when [Recency] <= 1 and [Frequecy] >= 2 and [Monetary] >= 1 then   'At Risk'
+                             
+ else 'lost'
+            end as Customer_segment
+From RFM
+ ```
+
 
 

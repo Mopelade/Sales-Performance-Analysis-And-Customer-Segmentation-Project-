@@ -82,4 +82,29 @@ To perform the RFM Analysis on SQL.
     );
 ```
 
+- **Step 2**: Calculate the Recency, Frequency and Monetar for each customer.
+
+```sql
+with RFM_analysis as (
+        SELECT 
+        CustomerID, 
+        DATEDIFF(day,MAX(INVOICEDATE),'2011-12-09' ) AS RECENCY,
+        COUNT(DISTINCT InvoiceNo) as FREQUENCY,
+        SUM(Revenue) AS MONETARY
+    FROM RFMOnlineRetail
+    GROUP BY CustomerID
+    )
+```
+- **Step 3**: Insert data into RFM table and  Assign RFM Scores
+```sql 
+INSERT INTO RFM (CustomerID,Recency,Frequecy,Monetary)
+     SELECT 
+     CustomerID, 
+     NTILE(5) OVER (ORDER BY RECENCY DESC),
+     NTILE(5) OVER (ORDER BY FREQUENCY ),
+     NTILE(5) OVER (ORDER BY MONETARY  )
+     FROM RFM_analysis;
+```
+
+
 

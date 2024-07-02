@@ -105,6 +105,9 @@ INSERT INTO RFM (CustomerID,Recency,Frequecy,Monetary)
      NTILE(5) OVER (ORDER BY MONETARY  )
      FROM RFM_analysis;
 ```
+**NTILE FUNCTION** was used to rank customers based on their recency ,Frequency, Monetary . The Function divided the customers into 5 groups based on their recency ,Frequency, Monetary
+For Recency, customers with the lowest recency get a higher score(5) and customers with the highest recency 
+get a lower score(1). Frequency and Monetary, customer with the highest numbers get higher score(5) and customers with lower numbers, get low lower score (1).  The resulting scores (from 1 to 5) are inserted into the RFM table. 
 
 - **Step 4**: Add a new column named customer segement   
 ```sql 

@@ -59,3 +59,11 @@ The objective is to examine various aspects of sales performance, customer behav
 
 **Busiest Time Periods:**
 - What are the busiest times of the day, week, or month for sales?
+
+# Software Listing
+The analysis utilized specific software tools to segment customers and visualize the data effectively. 
+
+- **SQL Server** was used to segment customers based on Recency, Frequency, and Monetary value (RFM).
+- **Power BI** was used for data visualization.
+
+This combination of SQL Server and Power BI enabled detailed customer segmentation and provided clear, interactive visual representations of the data for strategic decision-making.

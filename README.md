@@ -7,5 +7,13 @@
    
    SoftWare Listing 
    
-   # Data Analysis 
+   ## Data Analysis 
+
+   SQL Code Breakdown 
+
+   PowerBI Dashboard 
+
+   Insights 
+
+   Recommedation 
    

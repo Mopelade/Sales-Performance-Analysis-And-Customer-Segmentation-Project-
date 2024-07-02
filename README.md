@@ -67,3 +67,19 @@ The analysis utilized specific software tools to segment customers and visualize
 - **Power BI** was used for data visualization.
 
 This combination of SQL Server and Power BI enabled detailed customer segmentation and provided clear, interactive visual representations of the data for strategic decision-making.
+
+# Data Analysis 
+To perform the RFM Analysis on SQL. 
+- **Step 1** :Create a Table to Store RFM Scores and Segment Information 
+
+```sql
+ CREATE TABLE RFM(
+    CustomerID Int,
+    Recency INT,
+    Frequecy INT,
+    Monetary FLOAT,
+    RFM_segment VARCHAR(10)
+    );
+```
+
+

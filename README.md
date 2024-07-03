@@ -149,3 +149,7 @@ The dashboard shows total sales using different sales metrics. It provides insig
 
 In another part of the dashboard, you can see the top and bottom performing countries and SKUs, dynamically displaying rankings from the top 10 to the top 1. It also allows you to view performance using multiple sales metrics in a single visualization.
 
+![](RFMANALYIS/customersegementation.png)
+
+
+

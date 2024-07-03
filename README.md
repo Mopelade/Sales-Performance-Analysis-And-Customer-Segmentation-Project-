@@ -186,3 +186,79 @@ Key features of the dashboard include:
 
 - **Busiest Days and Hours:**
   - Highlights the busiest days and hours with the highest number of orders, helping users understand peak sales times.
+
+### Market Insights for Countries
+
+#### Top Performing Countries: Driving Sales Excellence
+The top 5 countries contributing the most to company sales are:
+1. United Kingdom
+2. Netherlands
+3. Germany
+4. France
+5. Ireland
+
+#### Least Performing Countries: Identifying Growth Opportunities
+The countries with the lowest sales performance include:
+1. Saudi Arabia
+2. Bahrain
+3. Czech Republic
+4. South Africa (RZA)
+5. Brazil
+
+#### Average Order Units: Market Leaders in Customer Engagement
+The top 5 countries with the highest average order units are:
+1. Netherlands
+2. Australia
+3. Lebanon
+4. Japan
+5. Brazil
+
+#### Revenue Insights: Understanding the UK Market
+The United Kingdom has the highest revenue contribution but is not in the top 10 countries for average order value (AOV). This indicates a broad customer base with frequent but smaller purchases.
+
+### Strategic Recommendations
+
+#### Boosting AOV in the United States: Leveraging a Wide Consumer Base
+
+**Increase AOV:**
+- **Upselling and Cross-Selling:** Encourage customers to purchase higher-value items or additional complementary products.
+- **Promotions and Bundling:** Implement promotional campaigns that bundle products or offer discounts on larger purchases to boost AOV.
+
+By focusing on these strategies, the company can enhance its sales performance and customer engagement across various regions.
+
+### Time-Based Analysis
+
+#### Peak Performance Periods
+
+**Highest Revenue Month:**
+- **November 2011:** The company generated the most revenue, accounting for 15% of total sales.
+
+**Lowest Revenue Month:**
+- **December 2010:** The company saw the least revenue contribution at 5%, with a significant decrease of 68.63%.
+
+#### Busiest Operational Times
+
+**Busiest Day:**
+- **Thursday:** The busiest day for the company.
+
+**Peak Hour:**
+- **12:00 PM:** The busiest time of day.
+
+### Recommendations
+
+#### Maximizing Revenue During Peak Times
+
+**Capitalizing on November Trends:**
+- **Seasonal Promotions:** Implement targeted promotional campaigns in November to leverage the historical peak performance.
+- **Inventory Management:** Ensure adequate stock levels and staffing to meet increased demand during this peak period.
+- **Marketing Blitz:** Increase marketing efforts leading up to and during November to capture a larger market share.
+
+#### Optimizing Operations on Busiest Days and Times
+
+**Enhancing Thursday Sales:**
+- **Flash Sales and Promotions:** Schedule flash sales or special promotions on Thursdays to capitalize on the high traffic.
+- **Staffing Optimization:** Ensure sufficient staff availability and efficient customer service on Thursdays to handle the increased volume.
+
+**Leveraging Peak Hour at 12:00 PM:**
+- **Targeted Marketing:** Schedule email and social media marketing campaigns to go live just before 12:00 PM to attract more customers.
+- **Operational Efficiency:** Optimize logistics and inventory replenishment to ensure smooth operations during peak hours.

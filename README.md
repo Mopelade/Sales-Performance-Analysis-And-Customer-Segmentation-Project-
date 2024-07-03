@@ -151,5 +151,19 @@ In another part of the dashboard, you can see the top and bottom performing coun
 
 ![](RFMANALYIS/customersegementation.png)
 
+### Customer Segmentation Dashboard Overview
 
+The dashboard segments customers using RFM (Recency, Frequency, Monetary) analysis. Customer RFM scores are divided into five ranks (1 to 5):
+
+- **Recency:**
+  - Customers with recent purchases are assigned scores of **1 or 2**.
+  - Customers with moderately recent purchases are assigned a score of **3**.
+  - Customers with older purchases are assigned scores of **4 or 5**.
+
+- **Frequency and Monetary:**
+  - Customers with low purchase frequency and spending are assigned scores of **1 or 2**.
+  - Customers with moderate purchase frequency and spending are assigned a score of **3**.
+  - Customers with high purchase frequency and spending are assigned scores of **4 or 5**.
+
+For each segment, the dashboard displays the total number of customers and total sales. Additionally, recommended marketing actions are provided for each segment.
 

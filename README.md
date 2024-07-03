@@ -167,3 +167,6 @@ The dashboard segments customers using RFM (Recency, Frequency, Monetary) analys
 
 For each segment, the dashboard displays the total number of customers and total sales. Additionally, recommended marketing actions are provided for each segment.
 
+![](RFMANALYIS/timebased.png)
+
+

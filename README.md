@@ -143,4 +143,9 @@ From RFM
 
 ![](RFMANALYIS/Salesperformance.png)
 
+### Dashboard Overview
+
+The dashboard shows total sales using different sales metrics. It provides insights into the previous month when you filter for a specific month and shows the percentage change.
+
+In another part of the dashboard, you can see the top and bottom performing countries and SKUs, dynamically displaying rankings from the top 10 to the top 1. It also allows you to view performance using multiple sales metrics in a single visualization.
 

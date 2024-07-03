@@ -169,4 +169,20 @@ For each segment, the dashboard displays the total number of customers and total
 
 ![](RFMANALYIS/timebased.png)
 
+### Time-Based Sales Performance Dashboard
 
+The dashboard provides an overview of sales performance over time, allowing users to see sales trends across multiple periods (year, month, weekday, week of the year) using various sales metrics, including:
+
+- **Revenue**
+- **Quantity**
+- **Order Count**
+- **Average Order Value (AOV)**
+- **Average Unit Price**
+
+Key features of the dashboard include:
+
+- **Month-over-Month (MOM) Growth:**
+  - Displays MOM growth by revenue to track sales performance changes month by month.
+
+- **Busiest Days and Hours:**
+  - Highlights the busiest days and hours with the highest number of orders, helping users understand peak sales times.

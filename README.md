@@ -141,6 +141,8 @@ From RFM
 
 #Power BI Dashboard 
 
+https://app.powerbi.com/links/VsTGSxCcmN?ctid=056e52ff-3fcb-4f6b-8251-481ea120fd41&pbi_source=linkShare
+
 ![](RFMANALYIS/Salesperformance.png)
 
 ### Dashboard Overview
